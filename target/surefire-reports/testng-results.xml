@@ -2,57 +2,27 @@
 <testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suit 1" duration-ms="1226" started-at="2022-09-01T18:33:25Z" finished-at="2022-09-01T18:33:26Z">
+  <suite name="Suit 1" duration-ms="1324" started-at="2022-09-19T18:53:10Z" finished-at="2022-09-19T18:53:11Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@598067a5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@25bbe1b6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@553f17c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@3159c4b8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test 2" duration-ms="1226" started-at="2022-09-01T18:33:25Z" finished-at="2022-09-01T18:33:26Z">
+    <test name="Test 1" duration-ms="1324" started-at="2022-09-19T18:53:10Z" finished-at="2022-09-19T18:53:11Z">
       <class name="Runners._08_TestRunnerParallel_MasterReport">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@25bbe1b6]" name="setUpClass" is-config="true" duration-ms="1121" started-at="2022-09-01T21:33:25Z" finished-at="2022-09-01T21:33:26Z">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@553f17c]" name="setUpClass" is-config="true" duration-ms="1198" started-at="2022-09-19T21:53:10Z" finished-at="2022-09-19T21:53:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6e1ec318]]>
+                <![CDATA[org.testng.TestRunner@71318ec4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@25bbe1b6]" name="beforeClass" is-config="true" duration-ms="8" started-at="2022-09-01T21:33:26Z" finished-at="2022-09-01T21:33:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@25bbe1b6]" name="tearDownClass" is-config="true" duration-ms="79" started-at="2022-09-01T21:33:26Z" finished-at="2022-09-01T21:33:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- Runners._08_TestRunnerParallel_MasterReport -->
-    </test> <!-- Test 2 -->
-    <test name="Test 1" duration-ms="1226" started-at="2022-09-01T18:33:25Z" finished-at="2022-09-01T18:33:26Z">
-      <class name="Runners._08_TestRunnerParallel_MasterReport">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@598067a5]" name="setUpClass" is-config="true" duration-ms="1122" started-at="2022-09-01T21:33:25Z" finished-at="2022-09-01T21:33:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7e0b0338]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@598067a5]" name="beforeClass" is-config="true" duration-ms="8" started-at="2022-09-01T21:33:26Z" finished-at="2022-09-01T21:33:26Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@553f17c]" name="beforeClass" is-config="true" duration-ms="10" started-at="2022-09-19T21:53:11Z" finished-at="2022-09-19T21:53:11Z">
           <params>
             <param index="0">
               <value>
@@ -63,11 +33,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@598067a5]" name="tearDownClass" is-config="true" duration-ms="80" started-at="2022-09-01T21:33:26Z" finished-at="2022-09-01T21:33:26Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@553f17c]" name="tearDownClass" is-config="true" duration-ms="85" started-at="2022-09-19T21:53:11Z" finished-at="2022-09-19T21:53:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- Runners._08_TestRunnerParallel_MasterReport -->
     </test> <!-- Test 1 -->
+    <test name="Test 2" duration-ms="1324" started-at="2022-09-19T18:53:10Z" finished-at="2022-09-19T18:53:11Z">
+      <class name="Runners._08_TestRunnerParallel_MasterReport">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@3159c4b8]" name="setUpClass" is-config="true" duration-ms="1199" started-at="2022-09-19T21:53:10Z" finished-at="2022-09-19T21:53:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@21213b92]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@3159c4b8]" name="beforeClass" is-config="true" duration-ms="10" started-at="2022-09-19T21:53:11Z" finished-at="2022-09-19T21:53:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@3159c4b8]" name="tearDownClass" is-config="true" duration-ms="87" started-at="2022-09-19T21:53:11Z" finished-at="2022-09-19T21:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runners._08_TestRunnerParallel_MasterReport -->
+    </test> <!-- Test 2 -->
   </suite> <!-- Suit 1 -->
 </testng-results>
