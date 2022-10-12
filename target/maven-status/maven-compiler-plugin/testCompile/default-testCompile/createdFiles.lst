@@ -13,7 +13,9 @@ ApachePOI/_08_WriteInTheExcel.class
 Pages/DialogContent.class
 Runners/_03_TestRunnerAll.class
 Utilities/DBUtility.class
+_JDBC/Gun02/_01_SqlExample.class
 Pages/FormContent.class
+_JDBC/Gun02/_02_GetAllRowColumn.class
 Pages/LeftNav.class
 StepDefinitions/_05_DatatableSteps.class
 Utilities/GWDBasic.class
@@ -27,6 +29,7 @@ ApachePOI/_01_2DArray.class
 StepDefinitions/_04_CitizenshipSteps.class
 Runners/_08_TestRunnerParallel.class
 Runners/_07_TestRunnerExtentReport.class
+StepDefinitions/_11_JDBCSteps.class
 ApachePOI/_05_GetASpecificData.class
 ApachePOI/_09_NewExcelWrite.class
 StepDefinitions/_01_LoginSteps.class
@@ -34,5 +37,6 @@ Runners/_08_TestRunnerParallel_ExtendReport.class
 StepDefinitions/Hooks.class
 ApachePOI/_07_Soru.class
 StepDefinitions/_02_CountrySteps.class
+_JDBC/Gun01/_04_Soru.class
 ApachePOI/_04_ApachePOIGetAllData.class
 Runners/_01_TestRunner.class

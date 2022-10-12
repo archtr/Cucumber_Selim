@@ -1,5 +1,5 @@
 Feature: Country Functionality
-//@SmokeTest @Regression
+@SmokeTest @Regression
   Scenario: Create Country
     Given Navigate to basqar
     When Enter username and password and click login button

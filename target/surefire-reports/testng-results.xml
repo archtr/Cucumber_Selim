@@ -1,73 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suit 1" duration-ms="1324" started-at="2022-09-19T18:53:10Z" finished-at="2022-09-19T18:53:11Z">
+  <suite name="Surefire suite" duration-ms="79327" started-at="2022-10-12T16:38:03Z" finished-at="2022-10-12T16:39:23Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@553f17c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@3159c4b8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners._04_TestRunnerSmoke@e45f292]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test 1" duration-ms="1324" started-at="2022-09-19T18:53:10Z" finished-at="2022-09-19T18:53:11Z">
-      <class name="Runners._08_TestRunnerParallel_MasterReport">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@553f17c]" name="setUpClass" is-config="true" duration-ms="1198" started-at="2022-09-19T21:53:10Z" finished-at="2022-09-19T21:53:11Z">
+    <test name="Surefire test" duration-ms="79327" started-at="2022-10-12T16:38:03Z" finished-at="2022-10-12T16:39:23Z">
+      <class name="Runners._04_TestRunnerSmoke">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runners._04_TestRunnerSmoke@e45f292]" name="setUpClass" is-config="true" duration-ms="988" started-at="2022-10-12T19:38:03Z" finished-at="2022-10-12T19:38:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@71318ec4]]>
+                <![CDATA[org.testng.TestRunner@23c767e6]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@553f17c]" name="beforeClass" is-config="true" duration-ms="10" started-at="2022-09-19T21:53:11Z" finished-at="2022-09-19T21:53:11Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners._04_TestRunnerSmoke@e45f292]" name="runScenario" duration-ms="39156" started-at="2022-10-12T19:38:04Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-12T19:38:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA["Login with valid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@553f17c]" name="tearDownClass" is-config="true" duration-ms="85" started-at="2022-09-19T21:53:11Z" finished-at="2022-09-19T21:53:11Z">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners._04_TestRunnerSmoke@e45f292]" name="runScenario" duration-ms="39101" started-at="2022-10-12T19:38:44Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-12T19:39:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create Country"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Country Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runners._04_TestRunnerSmoke@e45f292]" name="tearDownClass" is-config="true" duration-ms="55" started-at="2022-10-12T19:39:23Z" finished-at="2022-10-12T19:39:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- Runners._08_TestRunnerParallel_MasterReport -->
-    </test> <!-- Test 1 -->
-    <test name="Test 2" duration-ms="1324" started-at="2022-09-19T18:53:10Z" finished-at="2022-09-19T18:53:11Z">
-      <class name="Runners._08_TestRunnerParallel_MasterReport">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@3159c4b8]" name="setUpClass" is-config="true" duration-ms="1199" started-at="2022-09-19T21:53:10Z" finished-at="2022-09-19T21:53:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@21213b92]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@3159c4b8]" name="beforeClass" is-config="true" duration-ms="10" started-at="2022-09-19T21:53:11Z" finished-at="2022-09-19T21:53:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runners._08_TestRunnerParallel_MasterReport@3159c4b8]" name="tearDownClass" is-config="true" duration-ms="87" started-at="2022-09-19T21:53:11Z" finished-at="2022-09-19T21:53:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- Runners._08_TestRunnerParallel_MasterReport -->
-    </test> <!-- Test 2 -->
-  </suite> <!-- Suit 1 -->
+      </class> <!-- Runners._04_TestRunnerSmoke -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
